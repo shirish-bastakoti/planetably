@@ -1,0 +1,168 @@
+.slider_image {
+  height: 100vh !important;
+  object-fit: cover;
+  object-position: center;
+}
+.fifthmargin {
+  margin-top: 400px;
+}
+.box {
+  background-color: blue;
+  width: 400px;
+  height: 70px;
+  border: 15px solid blue;
+}
+.box1 {
+  width: 400px;
+  height: 70px;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+/* .content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */
+.fifthborder {
+  border: 2px solid black;
+  width: 900;
+}
+.card_image {
+  height: 300px !important;
+  width: 300px !important;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50% !important;
+}
+.bigfont {
+  font-size: 50px;
+  filter: brightness(1.95);
+}
+.mediumfont {
+  font-size: 22px;
+}
+.smallfont {
+  font-size: 15px;
+}
+.bootcard {
+  margin: 30px;
+}
+.image {
+  height: 100vh !important;
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+.backing {
+  background-color: white;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.imaging {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.overlay-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  top: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: black;
+  z-index: 1;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  
+}
+.margining {
+  margin-top: 500px;
+}
+.accordionflex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.mainone {
+  height: 300px !important;
+  width: 300px !important;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50% !important;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.overlayone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-radius: 50% !important;
+}
+.hide {
+  display: none;
+}
+/* .mainone:hover .card_image {
+  opacity: 0.4;
+} */
+.mainone:hover .hide {
+    display: block;
+  }
+
+.mainone:hover .overlayone {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.thirdpagebg{
+  background-color: bisque;
+}
+.fourthflex{
+  display: flex;
+  flex-direction: row;
+}
+.fourthflex:last-child{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.navbg{
+  background-color: rgb(14, 22, 14);
+  filter: brightness(1.95); 
+}
+.justifytext{
+  text-align: justify;
+}
